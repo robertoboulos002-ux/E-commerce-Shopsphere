@@ -1,0 +1,36 @@
+https://youtu.be/OMZa3bQZU44?si=nhIrhUP2IyWrUxTh inserting product FIXED
+https://youtu.be/s3uoqlXaOew?si=FoesDnH4LeK7IWMp getting specific brands and category "fixed"
+Continue shopping button is not redirected to home page "index.php" FIXED.
+https://youtu.be/_xA59BQrSNw?si=0r2_DIsipz0jdiDB bug: registering user that already exist.
+here's an issue:
+click on pay offline
+check the url the user_id shows the first user_id in the usertable database "Fixed" but design changed
+issue 2:
+open user profile
+click on all my orders
+click on confirm, the complete/incomplete field become completed and the status remains as confirm instead of paid. "Fixed"
+
+issue3:
+when i edit the account and click on the update button nothing will happen. "fixed"
+
+
+user pending orders shows zero pending orders while the user has orders and userid shows as 0 inside ordertable and orderpending table https://youtu.be/qAC0pdFJhJk?si=3EGUhFmkVPg6Ebnu  "Fixed" 
+https://youtu.be/NycyK9ziTno?si=dN34JhRI70-9X-9f check this again i guess it works
+https://youtu.be/OSpArHRYHhI?si=LkidiIHY4deseS23 colors bg-info bg-secondary do not works and confirm link under status do not appear and complete section needs some fixing.
+
+
+issue4:
+when i add one item to cart and update cart works correctly.
+when i add multiple items to the cart and try to update the quantity of the first or second items nothin will happen and the subtotal becomes 0. "Fixed"
+
+issue5:
+when i update the quantity for the last item in the cart all the items in the cart gets the same quantity as the last item. "Fixed"
+
+issue6:
+the quantity remains as 0 in the cart details table instead of 1. "Fixed"
+
+issue7: AdminDashboard :order-date under all payment remains 00:000000 "Fixed"
+issue8: when the user logout, the admin logout as well same session
+issue9: When the Quantity of items are the same, it means if item1 have quantity 2 and item2 have quantity 2, then the Amount in my orders profile shows correct
+however when the Quantity differ from item to another, the amount due shows wrong total
+
